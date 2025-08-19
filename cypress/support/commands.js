@@ -25,7 +25,7 @@
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
 import { faker, Faker } from "@faker-js/faker"
 Cypress.Commands.add('checkout',()=>{
-        cy.visit('http://lojaebac.ebaconline.art.br/')
+        cy.visit('/')
         cy.get('.product-block').first().click()
         cy.get('.button-variable-item-XS').click()
         cy.get('.button-variable-item-Orange').click()
