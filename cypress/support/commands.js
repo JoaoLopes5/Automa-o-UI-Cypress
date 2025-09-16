@@ -50,3 +50,5 @@ Cypress.Commands.add('checkout',()=>{
 
 
 })
+
+require('@reportportal/agent-js-cypress/lib/commands/reportPortalCommands');
